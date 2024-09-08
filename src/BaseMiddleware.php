@@ -53,7 +53,7 @@ abstract class BaseMiddleware
      *----------------------------------------*/
 
     /**
-     * handle an incoming request
+     * handle middleware
      * 
      * @param \Illuminate\Http\Request $request
      * @param \Closure $next
@@ -68,7 +68,7 @@ abstract class BaseMiddleware
     }
 
     /**
-     * run the middleware handle
+     * run middleware handle
      * 
      * @return \Symfony\Component\HttpFoundation\Response
      */
@@ -79,7 +79,7 @@ abstract class BaseMiddleware
      *----------------------------------------*/
 
     /**
-     * terminate the middleware
+     * terminate middleware
      * 
      * @param \Illuminate\Http\Request $request
      * @param \Symfony\Component\HttpFoundation\Response $response
@@ -94,7 +94,7 @@ abstract class BaseMiddleware
     }
 
     /**
-     * run the middleware terminate
+     * run middleware terminate
      * 
      * @return void
      */
