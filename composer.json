@@ -1,0 +1,28 @@
+{
+    "name": "yukata-roommate/laravel-middleware",
+    "description": "Easy to use middleware for Laravel",
+    "version": "1.0.0",
+    "keywords": [
+        "yukata-roommate",
+        "php",
+        "laravel",
+        "package",
+        "middleware",
+        "laravel-middleware"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yukata Roommate"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YukataRm\\Laravel\\Middleware\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=8.3.0",
+        "laravel/framework": "^11.0 || ^12.0"
+    }
+}
